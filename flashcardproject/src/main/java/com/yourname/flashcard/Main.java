@@ -1,21 +1,37 @@
 package com.yourname.flashcard;
 
-import java.io.IOException;
+import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         FlashCardManager manager = new FlashCardManager();
-        try {
-            manager.loadCardsFromFile("resources/sample_cards.txt");
-            FlashCard randomCard = manager.getRandomCard();
-            if (randomCard != null) {
-                System.out.println("Random Question: " + randomCard.getQuestion());
-                System.out.println("Answer: " + randomCard.getAnswer());
-            } else {
-                System.out.println("No cards found.");
+
+        if (manager.isEmpty()) {
+            System.out.println("No flashcards found. Please check your sample_cards.txt file.");
+            return;
+        }
+
+        List<FlashCard> flashCards = manager.getRandomFlashCards(10);
+        try (Scanner scanner = new Scanner(System.in)) {
+            int correctCount = 0;
+
+            System.out.println("Flashcard quiz! Answer the following questions:\n");
+
+            for (FlashCard card : flashCards) {
+                System.out.println("Question: " + card.getQuestion());
+                System.out.print("Your answer: ");
+                String userAnswer = scanner.nextLine().trim();
+
+                if (userAnswer.equalsIgnoreCase(card.getAnswer())) {
+                    System.out.println("Correct!\n");
+                    correctCount++;
+                } else {
+                    System.out.println("Incorrect! Correct answer: " + card.getAnswer() + "\n");
+                }
             }
-        } catch (IOException e) {
-            System.out.println("Error reading card file: " + e.getMessage());
+
+            System.out.println("Quiz finished! You answered " + correctCount + " out of " + flashCards.size() + " correctly.");
         }
     }
 }

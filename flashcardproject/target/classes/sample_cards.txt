@@ -1,0 +1,146 @@
+Question: What is the capital of Mongolia?
+Answer: Ulaanbaatar
+
+Question: What is the largest planet in our solar system?
+Answer: Jupiter
+
+Question: Who wrote the play 'Romeo and Juliet'?
+Answer: William Shakespeare
+
+Question: What is the chemical symbol for water?
+Answer: H2O
+
+Question: What is the longest river in the world?
+Answer: Nile.
+
+Question: What is the tallest mountain in the world?
+Answer: Mount Everest
+
+Question: What is the smallest continent by land area?
+Answer: Australia
+
+Question: Who discovered penicillin?
+Answer: Alexander Fleming
+
+Question: What is the speed of light?
+Answer: Approximately 299,792 kilometers per second
+
+Question: Which country is known as the Land of the Rising Sun?
+Answer: Japan
+
+Question: What is the main language spoken in Brazil?
+Answer: Portuguese
+
+Question: What gas do plants absorb from the atmosphere during photosynthesis?
+Answer: Carbon dioxide (CO2)
+
+Question: Who painted the Mona Lisa?
+Answer: Leonardo da Vinci
+
+Question: What is the powerhouse of the cell?
+Answer: Mitochondria
+
+Question: In which year did the Titanic sink?
+Answer: 1912
+
+Question: What is the freezing point of water in Celsius?
+Answer: 0 degrees Celsius
+
+Question: What element does 'O' represent on the periodic table?
+Answer: Oxygen
+
+Question: What is the currency of the United Kingdom?
+Answer: Pound Sterling (GBP)
+
+Question: How many continents are there on Earth?
+Answer: Seven
+
+Question: What is the longest bone in the human body?
+Answer: Femur    
+
+Question: Who invented the telephone?
+Answer: Alexander Graham Bell
+
+Question: What is the largest ocean on Earth?
+Answer: Pacific Ocean
+
+Question: What is the chemical formula for table salt?
+Answer: NaCl (Sodium chloride)
+
+Question: Which planet is known as the Red Planet?
+Answer: Mars
+
+Question: What is the capital city of France?
+Answer: Paris
+
+Question: Who developed the theory of relativity?
+Answer: Albert Einstein
+
+Question: What organ is responsible for pumping blood in the human body?
+Answer: Heart
+
+Question: How many teeth does an adult human have?
+Answer: 32
+
+Question: What is the largest desert in the world?
+Answer: Sahara Desert
+
+Question: Which animal is known as the king of the jungle?
+Answer: Lion
+
+Question: What is the hardest natural substance on Earth?
+Answer: Diamond
+
+Question: What is the main ingredient in bread?
+Answer: Flour
+
+Question: What is the boiling point of water in Celsius?
+Answer: 100 degrees Celsius
+
+Question: Who was the first person to walk on the moon?
+Answer: Neil Armstrong
+
+Question: What is the largest organ in the human body?
+Answer: Skin
+
+Question: What is the main gas found in the Earth's atmosphere?
+Answer: Nitrogen
+
+Question: What instrument is used to measure temperature?
+Answer: Thermometer
+
+Question: What is the capital city of Canada?
+Answer: Ottawa
+
+Question: What force keeps us on the ground?
+Answer: Gravity
+
+Question: Which country is famous for the Great Wall?
+Answer: China
+
+Question: What is the smallest unit of life?
+Answer: Cell
+
+Question: Who wrote 'The Odyssey'?
+Answer: Homer
+
+Question: What is the most abundant element in the universe?
+Answer: Hydrogen
+
+Question: What is the process by which plants make their food?
+Answer: Photosynthesis
+
+Question: What is the largest species of shark?
+Answer: Whale shark
+
+Question: How many planets are in the Solar System?
+Answer: Eight
+
+Question: What is the capital city of Italy?
+Answer: Rome
+
+Question: What does DNA stand for?
+Answer: Deoxyribonucleic Acid
+
+Question: Who is known as the Father of Computers?
+Answer: Charles Babbage

@@ -12,7 +12,7 @@ public class FlashCard {
         this.timesCorrect = 0;
         this.timesWrong = 0;
     }
-
+    
     public String getQuestion() {
         return question;
     }
