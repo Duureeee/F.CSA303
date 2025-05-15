@@ -1,17 +1,31 @@
-package flashcardproject.src.main.java.com.yourname.flashcard;
-
-import java.util.List;
+package com.yourname.flashcard;
 
 public class AchievementTracker {
-    public void trackAchievements(List<FlashCard> flashCards) {
-        int correctCount = 0;
+    private int correctCount = 0;
+    private int repeatCount = 0;
+    private int confidentCount = 0;
 
-        for (FlashCard card : flashCards) {
-            if (card.getUserAnswer().equalsIgnoreCase(card.getAnswer())) {
-                correctCount++;
-            }
-        }
+    public void recordCorrect() {
+        correctCount++;
+    }
 
-        System.out.println("You got " + correctCount + " out of " + flashCards.size() + " correct.");
+    public void recordRepeat() {
+        repeatCount++;
+    }
+
+    public void recordConfident() {
+        confidentCount++;
+    }
+
+    public int getCorrectCount() {
+        return correctCount;
+    }
+
+    public int getRepeatCount() {
+        return repeatCount;
+    }
+
+    public int getConfidentCount() {
+        return confidentCount;
     }
 }

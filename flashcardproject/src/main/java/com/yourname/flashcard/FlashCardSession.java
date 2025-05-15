@@ -1,15 +1,18 @@
-package flashcardproject.src.main.java.com.yourname.flashcard;
+package com.yourname.flashcard;
+
 
 import java.util.List;
 
 public class FlashCardSession {
-    private List<FlashCard> flashCards;
+    private List<FlashCard> sessionCards;
+    private CardOrganizer organizer;
 
-    public FlashCardSession(List<FlashCard> flashCards) {
-        this.flashCards = flashCards;
+    public FlashCardSession(List<FlashCard> cards, CardOrganizer organizer) {
+        this.organizer = organizer;
+        this.sessionCards = organizer.organize(cards);
     }
 
-    public void startSession() {
-        // Картын хариултуудыг хадгалах, сессийн хяналт хийх
+    public List<FlashCard> getSessionCards() {
+        return sessionCards;
     }
 }

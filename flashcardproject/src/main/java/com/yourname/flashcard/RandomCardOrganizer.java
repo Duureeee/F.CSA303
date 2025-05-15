@@ -1,12 +1,13 @@
-package flashcardproject.src.main.java.com.yourname.flashcard;
+package com.yourname.flashcard;
 
 import java.util.Collections;
 import java.util.List;
 
+
 public class RandomCardOrganizer implements CardOrganizer {
     @Override
-    public List<FlashCard> organizeCards(List<FlashCard> flashCards) {
-        Collections.shuffle(flashCards);
-        return flashCards;
+    public List<FlashCard> organize(List<FlashCard> cards) {
+        Collections.shuffle(cards);
+        return cards;
     }
 }

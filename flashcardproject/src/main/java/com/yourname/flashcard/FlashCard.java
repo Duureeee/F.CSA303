@@ -1,13 +1,16 @@
-package flashcardproject.src.main.java.com.yourname.flashcard;
+package com.yourname.flashcard;
 
 public class FlashCard {
     private String question;
     private String answer;
-    private String userAnswer;
+    private int timesCorrect;
+    private int timesWrong;
 
     public FlashCard(String question, String answer) {
         this.question = question;
         this.answer = answer;
+        this.timesCorrect = 0;
+        this.timesWrong = 0;
     }
 
     public String getQuestion() {
@@ -18,11 +21,19 @@ public class FlashCard {
         return answer;
     }
 
-    public String getUserAnswer() {
-        return userAnswer;
+    public void markCorrect() {
+        timesCorrect++;
     }
 
-    public void setUserAnswer(String userAnswer) {
-        this.userAnswer = userAnswer;
+    public void markWrong() {
+        timesWrong++;
+    }
+
+    public int getTimesCorrect() {
+        return timesCorrect;
+    }
+
+    public int getTimesWrong() {
+        return timesWrong;
     }
 }
