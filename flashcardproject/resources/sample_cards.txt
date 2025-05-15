@@ -1,0 +1,15 @@
+Question: What is the capital of Mongolia?
+Answer: Ulaanbaatar
+
+Question: What is the largest planet in our solar system?
+Answer: Jupiter
+
+Question: Who wrote the play 'Romeo and Juliet'?
+Answer: William Shakespeare
+
+Question: What is the chemical symbol for water?
+Answer: H2O
+
+Question: What is the longest river in the world?
+Answer: Nile.
+    
